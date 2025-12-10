@@ -1,0 +1,12 @@
+.sidebar {
+    background-image: url(assets/marco-grosso-8BJXxPYTMhY-unsplash.jpg);
+    height: 100vh;
+    width: 25vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+input {
+    padding: 10px;
+}
+
