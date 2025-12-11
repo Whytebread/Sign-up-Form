@@ -1,12 +1,36 @@
+/* Main containers */
+
+.page-wrapper {
+    display: flex;
+    height: 100vh;
+    flex-wrap: nowrap;
+}
+
 .sidebar {
     background-image: url(assets/marco-grosso-8BJXxPYTMhY-unsplash.jpg);
     height: 100vh;
-    width: 25vw;
+    width: 35vw;
     background-size: contain;
     background-repeat: no-repeat;
+    flex-shrink: 0;
 }
+
+.main-content {
+
+}
+
 
 input {
     padding: 10px;
+}
+
+
+
+.form-container {
+    display: flex;
+}
+
+.intro-text {
+    display: flex;
 }
 
