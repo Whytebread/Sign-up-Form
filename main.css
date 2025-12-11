@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Main containers */
 
 .page-wrapper {
     display: flex;
     height: 100vh;
-    flex-wrap: nowrap;
 }
 
 .sidebar {
@@ -16,21 +21,46 @@
 }
 
 .main-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container form {
+    display: flex;
+    gap: 2rem;
+    width: 100%
+}
+
+.intro-text {
 
 }
 
+.left, .right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
 
+/* Inputs */
 input {
     padding: 10px;
 }
 
+input:focus {
 
-
-.form-container {
-    display: flex;
 }
 
-.intro-text {
-    display: flex;
+input:invalid {
+
 }
+
+button {
+    padding: 15px;
+
+}
+
+
+
 
