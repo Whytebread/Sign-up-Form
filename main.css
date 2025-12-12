@@ -43,6 +43,11 @@
     flex-direction: column;
 }
 
+.sign-in {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Inputs */
 input {
     padding: 10px;
