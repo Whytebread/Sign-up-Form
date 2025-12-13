@@ -30,7 +30,7 @@
 .form-container form {
     display: flex;
     gap: 2rem;
-    width: 100%
+    width: 100%;
 }
 
 .intro-text {
@@ -51,6 +51,8 @@
 /* Inputs */
 input {
     padding: 10px;
+    width: 250px;
+    margin-bottom: 10px;
 }
 
 input:focus {
@@ -63,7 +65,11 @@ input:invalid {
 
 button {
     padding: 15px;
-
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 200px;
 }
 
 img {
