@@ -4,13 +4,22 @@
     box-sizing: border-box;
 }
 
-body {}
+body {
+    background-color: #121212;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Main containers */
 
 .page-wrapper {
     display: flex;
     height: 100vh;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
 }
 
 .sidebar {
@@ -29,6 +38,7 @@ body {}
     justify-content: flex-start;
     margin-top: 200px;
     max-width: 800px;
+    padding-left: 4rem;
 }
 
 .form-container form {
@@ -64,6 +74,7 @@ body {}
     font-weight: bold;
     width: 30vw;
     font-family: "Lato";
+    margin: 0;
 }
 
 /* Inputs */
