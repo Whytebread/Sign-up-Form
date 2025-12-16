@@ -28,6 +28,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     flex-shrink: 0;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
 }
 
 .main-content {
@@ -76,6 +79,14 @@ body {
     width: 30vw;
     font-family: "Lato";
     margin: 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.photo-credit {
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 /* Inputs */
@@ -103,6 +114,6 @@ button {
 }
 
 img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
