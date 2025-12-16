@@ -5,28 +5,27 @@
 }
 
 body {
-    background-color: #121212;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
 }
 
 /* Main containers */
 
 .page-wrapper {
     display: flex;
-    height: 100vh;
+    height: 100%;
     width: 80vw;
     align-items: center;
     justify-content: center;
-    background-color: white;
 }
 
 .sidebar {
     background-image: url(assets/marco-grosso-8BJXxPYTMhY-unsplash.jpg);
     height: 100vh;
     width: 30vw;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     flex-shrink: 0;
 }
@@ -36,9 +35,11 @@ body {
     flex: 1;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 200px;
+    padding-top: 200px;
     max-width: 800px;
     padding-left: 4rem;
+    background-color: white;
+    height: 100vh;
 }
 
 .form-container form {
